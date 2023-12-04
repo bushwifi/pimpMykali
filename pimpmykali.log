@@ -1,0 +1,176 @@
+[H[2J[3J           .__                               __           .__  .__ 
+    ______ |__| _____ ______   _____ ___.__.|  | _______  |  | |__|
+    \____ \|  |/     \____  \ /     \|  |  ||  |/ /\__  \ |  | |  |
+    |  |_> >  |  Y Y  \  |_> >  Y Y  \___  ||    <  / __ \|  |_|  |
+    |   __/|__|__|_|  /   __/|__|_|  / ____||__|_ \(____  /____/__|
+    |__|            \/|__|         \/\/ Powered  \/  By \/  Dewalt
+
+    Select an option from menu:             Rev: 1.7.7 Arch: amd64
+
+ Key  Menu Option:             Description:
+ ---  ------------             ------------
+  1 - Fix Missing              (pip pip3 golang gedit nmapfix build-essential)
+  2 - Fix /etc/samba/smb.conf  (adds the 2 missing lines)
+  3 - Fix Golang               (installs golang, adds GOPATH= to .zshrc and .bashrc)
+  4 - Fix Grub                 (adds mitigations=off)
+  5 - Fix Impacket             (installs impacket 0.9.19)
+  6 - Enable Root Login        (installs kali-root-login)
+  8 - Fix nmap scripts         (clamav-exec.nse and http-shellshock.nse)
+  9 - Pimpmyupgrade            (apt upgrade with vbox/vmware detection)
+                               (sources.list, linux-headers, vm-video)
+  0 - Fix ONLY 1 thru 8        (runs only 1 thru 8) 
+
+  [1mN - NEW VM SETUP[0m - Run this option if this is the first time running pimpmykali
+
+  = - Pimpmykali-Mirrors       (find fastest kali mirror. use the equals symbol = )
+  T - Reconfigure Timezone      current timezone  : US/Eastern
+  K - Reconfigure Keyboard      current keyb/lang : us
+
+ Key  Stand alone functions:   Description:
+ ---  ----------------------   ------------
+  B - Practical Bugbounty Labs (add requirements for PBB course labs)
+  E - PEH Course WebApp Labs   (add requirements for PEH WebApp Labs and installs) 
+  O - Hacking API Course Setup (add requirements for Hacking API Course)
+  M - Mayors MPP Course Setup  (adds requirments for Mayors MPP Course)
+  A - MAPT Course Setup        (adds requirments for MAPT Course)
+  P - Download Lin/WinPeas     (adds linpeas to /opt/linpeas and winpeas to /opt/winpeas)
+  I - Install MITM6            (install mitm6 from github)
+  C - Missing Google-Chrome    (install google-chrome only)
+  S - Fix Spike                (remove spike and install spike v2.9)
+  F - Broken XFCE Icons fix    (stand-alone function: only applies broken xfce fix)
+  G - Fix Gedit Conn Refused   (fixes gedit as root connection refused)
+  H - Fix httprobe missing     (fixes httprobe missing only)
+  L - Install Sublime Editor   (install the sublime text editor)
+  W - Gowitness Precompiled    (download and install gowitness)
+  V - Install MS-Vscode        (install microsoft vscode only)
+  ! - Nuke Impacket            (Type the ! character for this menu item)
+  @ - Install Nessus           (Type the @ character for this menu item)
+  $ - Nuke Nessus              (Type the $ character for this menu item)
+  % - CrackMapExec 6.x.x pipx  (Type the % character for this menu item)
+
+  Press key for menu item selection or press X to exit: [H[2J[3J           .__                               __           .__  .__ 
+    ______ |__| _____ ______   _____ ___.__.|  | _______  |  | |__|
+    \____ \|  |/     \____  \ /     \|  |  ||  |/ /\__  \ |  | |  |
+    |  |_> >  |  Y Y  \  |_> >  Y Y  \___  ||    <  / __ \|  |_|  |
+    |   __/|__|__|_|  /   __/|__|_|  / ____||__|_ \(____  /____/__|
+    |__|            \/|__|         \/\/ Powered  \/  By \/  Dewalt
+
+    Select an option from menu:             Rev: 1.7.7 Arch: amd64
+
+ Key  Menu Option:             Description:
+ ---  ------------             ------------
+  1 - Fix Missing              (pip pip3 golang gedit nmapfix build-essential)
+  2 - Fix /etc/samba/smb.conf  (adds the 2 missing lines)
+  3 - Fix Golang               (installs golang, adds GOPATH= to .zshrc and .bashrc)
+  4 - Fix Grub                 (adds mitigations=off)
+  5 - Fix Impacket             (installs impacket 0.9.19)
+  6 - Enable Root Login        (installs kali-root-login)
+  8 - Fix nmap scripts         (clamav-exec.nse and http-shellshock.nse)
+  9 - Pimpmyupgrade            (apt upgrade with vbox/vmware detection)
+                               (sources.list, linux-headers, vm-video)
+  0 - Fix ONLY 1 thru 8        (runs only 1 thru 8) 
+
+  [1mN - NEW VM SETUP[0m - Run this option if this is the first time running pimpmykali
+
+  = - Pimpmykali-Mirrors       (find fastest kali mirror. use the equals symbol = )
+  T - Reconfigure Timezone      current timezone  : US/Eastern
+  K - Reconfigure Keyboard      current keyb/lang : us
+
+ Key  Stand alone functions:   Description:
+ ---  ----------------------   ------------
+  B - Practical Bugbounty Labs (add requirements for PBB course labs)
+  E - PEH Course WebApp Labs   (add requirements for PEH WebApp Labs and installs) 
+  O - Hacking API Course Setup (add requirements for Hacking API Course)
+  M - Mayors MPP Course Setup  (adds requirments for Mayors MPP Course)
+  A - MAPT Course Setup        (adds requirments for MAPT Course)
+  P - Download Lin/WinPeas     (adds linpeas to /opt/linpeas and winpeas to /opt/winpeas)
+  I - Install MITM6            (install mitm6 from github)
+  C - Missing Google-Chrome    (install google-chrome only)
+  S - Fix Spike                (remove spike and install spike v2.9)
+  F - Broken XFCE Icons fix    (stand-alone function: only applies broken xfce fix)
+  G - Fix Gedit Conn Refused   (fixes gedit as root connection refused)
+  H - Fix httprobe missing     (fixes httprobe missing only)
+  L - Install Sublime Editor   (install the sublime text editor)
+  W - Gowitness Precompiled    (download and install gowitness)
+  V - Install MS-Vscode        (install microsoft vscode only)
+  ! - Nuke Impacket            (Type the ! character for this menu item)
+  @ - Install Nessus           (Type the @ character for this menu item)
+  $ - Nuke Nessus              (Type the $ character for this menu item)
+  % - CrackMapExec 6.x.x pipx  (Type the % character for this menu item)
+
+  Press key for menu item selection or press X to exit: [H[2J[3J           .__                               __           .__  .__ 
+    ______ |__| _____ ______   _____ ___.__.|  | _______  |  | |__|
+    \____ \|  |/     \____  \ /     \|  |  ||  |/ /\__  \ |  | |  |
+    |  |_> >  |  Y Y  \  |_> >  Y Y  \___  ||    <  / __ \|  |_|  |
+    |   __/|__|__|_|  /   __/|__|_|  / ____||__|_ \(____  /____/__|
+    |__|            \/|__|         \/\/ Powered  \/  By \/  Dewalt
+
+    Select an option from menu:             Rev: 1.7.7 Arch: amd64
+
+ Key  Menu Option:             Description:
+ ---  ------------             ------------
+  1 - Fix Missing              (pip pip3 golang gedit nmapfix build-essential)
+  2 - Fix /etc/samba/smb.conf  (adds the 2 missing lines)
+  3 - Fix Golang               (installs golang, adds GOPATH= to .zshrc and .bashrc)
+  4 - Fix Grub                 (adds mitigations=off)
+  5 - Fix Impacket             (installs impacket 0.9.19)
+  6 - Enable Root Login        (installs kali-root-login)
+  8 - Fix nmap scripts         (clamav-exec.nse and http-shellshock.nse)
+  9 - Pimpmyupgrade            (apt upgrade with vbox/vmware detection)
+                               (sources.list, linux-headers, vm-video)
+  0 - Fix ONLY 1 thru 8        (runs only 1 thru 8) 
+
+  [1mN - NEW VM SETUP[0m - Run this option if this is the first time running pimpmykali
+
+  = - Pimpmykali-Mirrors       (find fastest kali mirror. use the equals symbol = )
+  T - Reconfigure Timezone      current timezone  : US/Eastern
+  K - Reconfigure Keyboard      current keyb/lang : us
+
+ Key  Stand alone functions:   Description:
+ ---  ----------------------   ------------
+  B - Practical Bugbounty Labs (add requirements for PBB course labs)
+  E - PEH Course WebApp Labs   (add requirements for PEH WebApp Labs and installs) 
+  O - Hacking API Course Setup (add requirements for Hacking API Course)
+  M - Mayors MPP Course Setup  (adds requirments for Mayors MPP Course)
+  A - MAPT Course Setup        (adds requirments for MAPT Course)
+  P - Download Lin/WinPeas     (adds linpeas to /opt/linpeas and winpeas to /opt/winpeas)
+  I - Install MITM6            (install mitm6 from github)
+  C - Missing Google-Chrome    (install google-chrome only)
+  S - Fix Spike                (remove spike and install spike v2.9)
+  F - Broken XFCE Icons fix    (stand-alone function: only applies broken xfce fix)
+  G - Fix Gedit Conn Refused   (fixes gedit as root connection refused)
+  H - Fix httprobe missing     (fixes httprobe missing only)
+  L - Install Sublime Editor   (install the sublime text editor)
+  W - Gowitness Precompiled    (download and install gowitness)
+  V - Install MS-Vscode        (install microsoft vscode only)
+  ! - Nuke Impacket            (Type the ! character for this menu item)
+  @ - Install Nessus           (Type the @ character for this menu item)
+  $ - Nuke Nessus              (Type the $ character for this menu item)
+  % - CrackMapExec 6.x.x pipx  (Type the % character for this menu item)
+
+  Press key for menu item selection or press X to exit: 
+  [1;33m[++][0m Installing docker.io and docker-compose
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  cgroupfs-mount containerd criu libintl-perl libintl-xs-perl
+  libmodule-find-perl libmodule-scandeps-perl libproc-processtable-perl
+  libsort-naturally-perl needrestart python3-compose python3-docker
+  python3-dockerpty python3-texttable runc tini
+Suggested packages:
+  containernetworking-plugins docker-doc aufs-tools btrfs-progs debootstrap
+  rinse rootlesskit xfsprogs zfs-fuse | zfsutils-linux
+The following NEW packages will be installed:
+  cgroupfs-mount containerd criu docker-compose docker.io libintl-perl
+  libintl-xs-perl libmodule-find-perl libmodule-scandeps-perl
+  libproc-processtable-perl libsort-naturally-perl needrestart python3-compose
+  python3-docker python3-dockerpty python3-texttable runc tini
+0 upgraded, 18 newly installed, 0 to remove and 1143 not upgraded.
+Need to get 68.7 MB of archives.
+After this operation, 275 MB of additional disk space will be used.
+Get:1 http://http.kali.org/kali kali-rolling/main amd64 runc amd64 1.1.10+ds1-1 [2746 kB]
+Get:2 http://http.kali.org/kali kali-rolling/main amd64 containerd amd64 1.6.24~ds1-1 [26.9 MB]
